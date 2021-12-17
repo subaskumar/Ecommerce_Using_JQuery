@@ -1,0 +1,91 @@
+img {
+    max-width: 100%; 
+  }
+.preview {
+  display: flex;
+  flex-direction: column; 
+}
+@media screen and (max-width: 996px) {
+  .preview {
+    margin-bottom: 20px; 
+  } 
+}
+.preview-pic {
+  flex-grow: 1; 
+}
+  
+.preview-thumbnail.nav-tabs {
+    border: none;
+    margin-top: 15px;
+}
+.preview-thumbnail.nav-tabs li {
+  width: 10%;
+  margin-right: 2.5%;
+}   
+.preview-thumbnail.nav-tabs li img {
+  max-width: 100%;
+  display: block; 
+}
+.preview-thumbnail.nav-tabs li a {
+  padding: 0;
+  margin: 0; 
+}
+.preview-thumbnail.nav-tabs li:last-of-type {
+  margin-right: 0; 
+}
+.card {
+  background: #eee;
+  padding: 3em;
+  line-height: 1.5em; 
+}
+a{
+  cursor: pointer;
+}
+  
+@media screen and (min-width: 997px) {
+  .wrapper {
+    display: flex; 
+  } 
+}
+  
+.details {  
+  display: flex;
+  flex-direction: column; 
+}  
+  
+.product-title, .price, .sizes, .colors {
+    text-transform: UPPERCASE;
+    font-weight: bold; 
+}
+  
+.checked, .price span {
+    color: #ff9f1a; 
+}
+.product-title, .rating, .product-description, .price, .vote, .sizes {
+    margin-bottom: 15px; 
+}  
+.product-title {
+    margin-top: 0; 
+}
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+.add-to-cart{
+  display: inline-block;
+  background: #3e3e3f;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 0.8rem 1.7rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.0625rem;
+}
+.details h4{
+  color: #333;
+}
+
+
+.add-to-cart:hover{
+ opacity: 0.8;
+}
